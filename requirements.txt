@@ -1,0 +1,28 @@
+# Core Frameworks
+langchain
+langgraph
+langchain_google_genai
+langchain_google_community
+fastapi
+uvicorn[standard]  # For the web server
+websockets
+
+# Google APIs (STT, TTS, Calendar, Gmail, YouTube)
+google-cloud-speech
+google-cloud-texttospeech
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+
+# Tools
+google-search-results  # For SerpApi, wrapper for Google Search
+twilio                 # For WhatsApp
+
+# I/O & Streaming
+pyaudio                # For playing audio
+stream2sentence        # For buffering LLM tokens
+python-dotenv          # For managing environment variables
+
+# Memory
+langchain_redis
+redis
